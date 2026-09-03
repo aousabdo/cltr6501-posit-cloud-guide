@@ -49,6 +49,7 @@ Posit Cloud does **not** send you an email. Once you are logged in, open the cou
 2. Open the CLTR6501 course project: [https://posit.cloud/content/8108744](https://posit.cloud/content/8108744)
 3. Posit Cloud opens a **temporary copy** of the project for you. Click the **Save a Permanent Copy** button at the top of the window so the project is saved in **Your Workspace** and your work is kept
 4. From then on, open your own copy from **Your Workspace** on the Posit Cloud dashboard (not from the link above)
+5. The project contains one folder per module (`Module_1` to `Module_8`), each with that module's R script, plus a `README.md` with instructions. Open `README.md` first
 
 If the link asks you to log in, log in and it will take you to the project. If you see the message that the project is "read-only" or "temporary", you have not yet saved a permanent copy.
 
@@ -268,6 +269,11 @@ For computationally intensive tasks:
 3. **Project Won't Load**:
    - Try accessing the project in a different browser
    - Contact Posit Cloud support if persistent
+
+4. **"The previous R session was abnormally terminated"**:
+   - A free Posit Cloud project has 1 GB of memory, and this message means the session ran out of it
+   - Choose **Session > Restart R**, then run the module script again from the top. Your files are not lost
+   - Work on one module per session: choose **Session > Restart R** before starting a new module (Module 4 loads a large package)
 
 ## Getting Help
 
