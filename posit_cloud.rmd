@@ -41,11 +41,16 @@ Posit Cloud is a cloud-based version of RStudio, a powerful integrated developme
 3. Use your university email to create an account
 4. Verify your email if required
 
-## Step 2: Join the CLTR6501 Workspace
+## Step 2: Open the CLTR6501 Course Project
 
-1. After logging in, you'll see your Posit Cloud dashboard
-2. Look for an email or announcement with the CLTR6501 workspace link
-3. Click the link and select "Join Space"
+Posit Cloud does **not** send you an email. Once you are logged in, open the course project directly:
+
+1. Make sure you are logged in to Posit Cloud (Step 1)
+2. Open the CLTR6501 course project: [https://posit.cloud/content/8108744](https://posit.cloud/content/8108744)
+3. Posit Cloud opens a **temporary copy** of the project for you. Click the **Save a Permanent Copy** button at the top of the window so the project is saved in **Your Workspace** and your work is kept
+4. From then on, open your own copy from **Your Workspace** on the Posit Cloud dashboard (not from the link above)
+
+If the link asks you to log in, log in and it will take you to the project. If you see the message that the project is "read-only" or "temporary", you have not yet saved a permanent copy.
 
 ## Step 3: Navigating the Posit Cloud Interface
 
@@ -188,9 +193,9 @@ ggplot(mtcars, aes(x = factor(cyl), y = mpg)) +
 
 ### Sharing Projects
 
-1. Click "Share" in the top-right corner of your project
-2. Set permissions (View, Edit, or None)
-3. Copy the generated link to share
+1. Open the project's **Settings** (gear icon) and choose **Access**
+2. Set **General Access** to "All Posit Cloud Users" (or keep it Private)
+3. Copy the project's address from your browser and share that link
 
 # Advanced Features for Biostatistics
 

@@ -1616,8 +1616,9 @@ overflow: visible;
 }
 </style>
 <style type="text/css" data-origin="pandoc">
+html { -webkit-text-size-adjust: 100%; }
 pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -1628,7 +1629,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
 { counter-reset: source-line 0; }
@@ -1936,14 +1937,24 @@ computationally intensive biostatistical analyses.</li>
 <li>Verify your email if required</li>
 </ol>
 </div>
-<div id="step-2-join-the-cltr6501-workspace" class="section level2">
-<h2>Step 2: Join the CLTR6501 Workspace</h2>
+<div id="step-2-open-the-cltr6501-course-project" class="section level2">
+<h2>Step 2: Open the CLTR6501 Course Project</h2>
+<p>Posit Cloud does <strong>not</strong> send you an email. Once you are
+logged in, open the course project directly:</p>
 <ol style="list-style-type: decimal">
-<li>After logging in, you’ll see your Posit Cloud dashboard</li>
-<li>Look for an email or announcement with the CLTR6501 workspace
-link</li>
-<li>Click the link and select “Join Space”</li>
+<li>Make sure you are logged in to Posit Cloud (Step 1)</li>
+<li>Open the CLTR6501 course project: <a href="https://posit.cloud/content/8108744">https://posit.cloud/content/8108744</a></li>
+<li>Posit Cloud opens a <strong>temporary copy</strong> of the project
+for you. Click the <strong>Save a Permanent Copy</strong> button at the
+top of the window so the project is saved in <strong>Your
+Workspace</strong> and your work is kept</li>
+<li>From then on, open your own copy from <strong>Your
+Workspace</strong> on the Posit Cloud dashboard (not from the link
+above)</li>
 </ol>
+<p>If the link asks you to log in, log in and it will take you to the
+project. If you see the message that the project is “read-only” or
+“temporary”, you have not yet saved a permanent copy.</p>
 </div>
 <div id="step-3-navigating-the-posit-cloud-interface" class="section level2">
 <h2>Step 3: Navigating the Posit Cloud Interface</h2>
@@ -2076,7 +2087,7 @@ to install additional ones:</p>
 <span id="cb10-11"><a href="#cb10-11" tabindex="-1"></a>  )</span>
 <span id="cb10-12"><a href="#cb10-12" tabindex="-1"></a></span>
 <span id="cb10-13"><a href="#cb10-13" tabindex="-1"></a><span class="fu">print</span>(mtcars_summary)</span></code></pre></div>
-<pre><code>## # A tibble: 3 × 4
+<pre><code>## # A tibble: 3 x 4
 ##     cyl mean_mpg sd_mpg count
 ##   &lt;dbl&gt;    &lt;dbl&gt;  &lt;dbl&gt; &lt;int&gt;
 ## 1     4     26.7   4.51    11
@@ -2105,9 +2116,12 @@ to install additional ones:</p>
 <div id="sharing-projects" class="section level3">
 <h3>Sharing Projects</h3>
 <ol style="list-style-type: decimal">
-<li>Click “Share” in the top-right corner of your project</li>
-<li>Set permissions (View, Edit, or None)</li>
-<li>Copy the generated link to share</li>
+<li>Open the project’s <strong>Settings</strong> (gear icon) and choose
+<strong>Access</strong></li>
+<li>Set <strong>General Access</strong> to “All Posit Cloud Users” (or
+keep it Private)</li>
+<li>Copy the project’s address from your browser and share that
+link</li>
 </ol>
 </div>
 </div>
